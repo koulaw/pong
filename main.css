@@ -1,0 +1,47 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    font-family: "Open Sans"
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding:15px 30px;
+    background:#222;
+    color:#fff;
+    align-items: center;
+}
+#score {
+    font-size: 24px;
+    font-weight: bold;
+}
+#field {
+    background:#ccc;
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.paddle {
+    width: 15px;
+    height: 80px;
+    background:#555;
+    position: absolute;
+    top:160px;
+}
+
+#paddleP1 {
+    left:30px;
+}
+#paddleP2 {
+    right:30px;
+}
+#ball {
+    position: absolute;
+    left:390px;
+    top:190px;
+    background: #555;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%
+}
